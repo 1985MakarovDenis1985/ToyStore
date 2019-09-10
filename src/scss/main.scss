@@ -60,6 +60,11 @@
     font-style: normal;
 }
 
+//font-family: Audiowide;
+//font-family: 'Neucha', cursive;
+//font-family: 'Oswald', sans-serif;
+
+
 
 ////////////// mixins & variable
 
@@ -78,10 +83,10 @@ $bgLighter:#F4E4CB;
 
 @import "sass_modules/part_1_header_nav";
 @import "sass_modules/part_2_header";
-//@import "sass_modules/part_3_main_content";
+@import "sass_modules/part_3_main_content";
 //@import "sass_modules/part_9_login";
 //@import "sass_modules/part_10_js_range";
-//@import "sass_modules/part_4_posts";
+@import "sass_modules/part_4_posts";
 //@import "sass_modules/part_5_slider";
 //@import "sass_modules/part_6_footer";
 //@import "sass_modules/part_7_425px";

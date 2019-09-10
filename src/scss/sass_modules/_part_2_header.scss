@@ -443,6 +443,13 @@
   @media screen and (max-width: 1440px){
     margin-top: 25px;
   }
+  @media screen and (max-width: 1024px){
+    width: 400px;
+  }
+  @media screen and (max-width: 768px){
+    width: 300px;
+  }
+
 
   .content_desc_text{
     display: inline;
@@ -452,12 +459,16 @@
     margin-top: 5px;
     transition: 0.5s;
     opacity: 0;
+    color: #472424;
+
     //font-family: 'Ubuntu Condensed', sans-serif;
 
 
     @media screen and (max-width: 1440px){
       font-size: 30px;
-      color: #472424;
+    }
+    @media screen and (max-width: 1024px){
+      font-size: 25px;
     }
   }
 }

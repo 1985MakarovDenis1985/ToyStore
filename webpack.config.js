@@ -72,7 +72,7 @@ module.exports = {
         compress: true,
         host: '0.0.0.0',
         useLocalIp: true,
-        port: 9000 //// порт
+        port: 3030 //// порт
     },
     plugins: [                      //// регестрируем плагины => смотр. на оф сфйтах
         new MiniCssExtractPlugin({
